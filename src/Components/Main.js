@@ -28,6 +28,7 @@ class Main extends React.Component {
                         console.log("getUserMedia failed", err)
                         this.setState({ readyState: true })
                     })
+                    
             })
         })
     }
